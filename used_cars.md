@@ -1,5 +1,5 @@
 
-## **Overview**
+# **Overview**
 
 This project aims to analyse a used-cars dataset using SQL and Power BI to uncover insights. By exploring patterns and trends within the dataset, the objective is to address various business-related questions.
 
@@ -25,26 +25,30 @@ new_price varchar(100)
 
 I then used the Table Import Wizard to import the CSV file into the table on MySQL Workbench.
 
-**Business Questions and Answers:**
+## **Business Questions and Answers:**
 
-1: Identify the most listed car model.
+<ins>1: Identify the most listed car model.<ins>
+
 select carName, count(carName) from USED_CARS_TEST_DATA group by carName order by count(carName) desc limit 1;
 
 ![image](https://github.com/user-attachments/assets/3c912d9d-0cfe-45be-8b01-ca6dd8bc9370)
 
-2: Understand which transmission type is more common
+<ins>2: Understand which transmission type is more common<ins>
+
 select transmission, count(transmission) from USED_CARS_TEST_DATA group by transmission order by count(transmission) desc;
 
 ![image](https://github.com/user-attachments/assets/606273c6-e78e-4c82-a147-2cb1f535b6cf)
 
 
-3: Identify locations where older cars are more frequently listed.
+<ins>3: Identify locations where older cars are more frequently listed.<ins>
+
 select location, AVG(2025 - manufactuerYear) as 'average age' from USED_CARS_TEST_DATA group by location order by 2 desc;
 
 ![image](https://github.com/user-attachments/assets/0883920c-2f6d-4145-a78e-4eeea135604c)
 
 
-4: Analyze the impact of fuel type on fuel efficiency.
+<ins>4: Analyze the impact of fuel type on fuel efficiency.<ins>
+
 select fuelType, AVG(mileage) from USED_CARS_TEST_DATA group by fuelType;
 
 ![image](https://github.com/user-attachments/assets/e468c1c8-910e-4d70-9bbc-41802ce21072)
