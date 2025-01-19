@@ -71,7 +71,7 @@ select fuelType, AVG(mileage) from USED_CARS_TEST_DATA group by fuelType;
  * Encourage sellers of less popular cars to use premium services for better visibility.
  * Add search filters for transmission type ( Manual or Automatic).
  * Suggest prices to sellers based on feature desirability.
- *  Highlight fuel-efficient cars
+ *  Highlight fuel-efficient cars.
 
 
 
