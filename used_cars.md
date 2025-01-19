@@ -1,7 +1,7 @@
 
 # **Overview**
 
-This project aims to analyse a used-cars dataset using SQL and Power BI to uncover insights. By exploring patterns and trends within the dataset, the objective is to address various business-related questions.
+This project aims to analyse a used-cars dataset using SQL to uncover insights. By exploring patterns and trends within the dataset, the objective is to address various business-related questions.
 
 **DATASET:**  https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction
 
