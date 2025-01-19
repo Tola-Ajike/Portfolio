@@ -66,8 +66,12 @@ select fuelType, AVG(mileage) from USED_CARS_TEST_DATA group by fuelType;
 
 ![image](https://github.com/user-attachments/assets/e468c1c8-910e-4d70-9bbc-41802ce21072)
 
-
-
+## **Business Recommendations**
+ > Attract more buyers by promoting popular models such as the Maruti Swift Dzire VDI.
+ > Encourage sellers of less popular cars to use premium services for better visibility.
+ > Add search filters for transmission type ( Manual or Automatic).
+ > Suggest prices to sellers based on feature desirability
+> Highlight fuel-efficient cars
 
 
 
