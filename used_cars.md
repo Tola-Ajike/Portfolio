@@ -5,22 +5,35 @@ This project aims to analyse a used-cars dataset using SQL and Power BI to uncov
 
 **DATASET:**  https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction
 
-**SCHEMA:
-**
+**SCHEMA:**
 CREATE TABLE USED_CARS_TEST_DATA(
+
 carID int primary key,
+
 carName varchar(100),
+
 location varchar(100),
+
 manufactuerYear int,
+
 kilometers int,
+
 fuelType varchar(100),
+
 transmission varchar(100),
+
 ownerType varchar(100),
+
 Mileage double,
+
 carEngine varchar(100),
+
 power varchar(100),
+
 seats int,
+
 new_price varchar(100)
+
 );
 
 I then used the Table Import Wizard to import the CSV file into the table on MySQL Workbench.
