@@ -7,7 +7,9 @@ This project aims to analyse a used-cars dataset using SQL to uncover insights. 
 
 **SCHEMA:**
 CREATE TABLE USED_CARS_TEST_DATA(
+
 carID int primary key,
+
 carName varchar(100),
 
 location varchar(100),
