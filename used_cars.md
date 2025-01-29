@@ -42,9 +42,10 @@ I then used the Table Import Wizard to import the CSV file into the table on MyS
 
 <ins>1: Identify the most listed car model.<ins>
 
-select carName, count(carName) from USED_CARS_TEST_DATA group by carName order by count(carName) desc limit 1;
+select carName, count(carName) from USED_CARS_TEST_DATA group by carName  Having count(carName)  = (
+select count(carName) from  USED_CARS_TEST_DATA group by carName order by count(carName) desc limit 1);
 
-![image](https://github.com/user-attachments/assets/3c912d9d-0cfe-45be-8b01-ca6dd8bc9370)
+![image](https://github.com/user-attachments/assets/e9f91d66-c181-42b5-b1a1-83ccd6d4387b)
 
 <ins>2: Understand which transmission type is more common<ins>
 
@@ -72,6 +73,9 @@ select fuelType, AVG(mileage) from USED_CARS_TEST_DATA group by fuelType;
  * Add search filters for transmission type ( Manual or Automatic).
  * Suggest prices to sellers based on feature desirability.
  *  Highlight fuel-efficient cars.
+
+![image](https://github.com/user-attachments/assets/1fe41f84-b73b-479b-b930-8c41f63c1896)
+
 
 
 
