@@ -1,4 +1,4 @@
-This Plane Crash Dashboard presents data on aviation accidents over time. It includes:
+This Plane Crash Dashboard presents data on aviation accidents over time. It was created using Tableau. It includes:
 
 - Number of Plane Crashes Each Decade – Shows a rise in crashes peaking around the 1970s, followed by a decline.
 - Number of Passengers Aboard Each Year – Depicts an increase in passengers over time, peaking around the 1970s–1990s before decreasing.
